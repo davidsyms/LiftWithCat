@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lift With Cat Intake Form</title>
+
+     <!-- Fonts -->
+
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@500;600;700&family=Nunito&display=swap"
+         rel="stylesheet" />
+ 
+     <!--- Bootstrap Setup -->
+ 
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+ 
+     <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+         crossorigin="anonymous"></script>
+ 
+     <!--- END Bootstrap Setup -->
+     <link rel="stylesheet" href="css/intakeform.css" />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="tagline">
+        <p>Invest in Yourself</p>
+        <h1>LIFTWITHCAT</h1>
+        <p>Change Your Life</p>
+    </div>
+    <form id="intakeForm" action="" method="" >
+        <div class="tab">
+            <p>How can I help you?</p>
+            <label for="entry.946555101.Fat Loss">
+                <input type="radio" name="entry.946555101" id="entry.946555101.Fat Loss" value="Fat Loss" required="" class="fat-loss-radio radio">
+                <button type="button" class="btn btn-outline-dark btn-lg custom-color" id="fat-loss-btn-visual">Fat Loss</button>
+            </label>
+            <label for="entry.946555101.Muscle Gain">
+                <input type="radio" name="entry.946555101" id="entry.946555101.Muscle Gain" value="Muscle Gain" required="" class="muscle-gain-radio radio">
+                <button type="button" class="btn btn-outline-dark btn-lg custom-color" id="muscle-gain-btn-visual">Muscle Gain</button>
+            </label>
+            <label for="entry.946555101.Body Recomposition">
+                <input type="radio" name="entry.946555101" id="entry.946555101.Body Recomposition" value="Body Recomposition" required="" class="body-compt-radio radio">
+                <button type="button" class="btn btn-outline-dark btn-lg custom-color" id="body-comp-btn-visual">Body Recomposition</button>
+            </label>
+        </div>
+
+        <div class="tab">
+            <p>How do you identify?</p>
+            <label for="entry.1330718907.Female">
+                <input type="radio" name="entry.1330718907" id="entry.1330718907.Female" value="Female" required="" class="female-radio radio">
+                <button type="button" class="btn btn-outline-dark btn-lg custom-color" id="female-visual">Female</button>
+            </label>
+            <label for="entry.1330718907.Male">
+                <input type="radio" name="entry.1330718907" id="entry.1330718907.Male" value="Male" required="" class="male-radio radio">
+                <button type="button" class="btn btn-outline-dark btn-lg custom-color" id="male-visual">Male</button>
+            </label>
+            <label for="entry.1330718907.Other / Prefer not to say">
+                <input type="radio" name="entry.1330718907" id="entry.1330718907.Other / Prefer not to say" value="Other / Prefer not to say" required="" class="other-radio radio">
+                <button type="button" class="btn btn-outline-dark btn-lg custom-color" id="other-visual">Other / Prefer not to say</button>
+            </label>
+        </div>
+        <div class="tab">
+            <p>Age?</p>
+            <label for="entry.1180158001.< 18">
+                <input type="radio" name="entry.1180158001" id="entry.1180158001.< 18" value="< 18" required="" class="18-radio radio">
+                <button type="button" class="btn btn-outline-dark btn-lg custom-color" id="18-visual">&lt; 18</button>
+            </label>
+            <label for="entry.1180158001.18 - 24">
+                <input type="radio" name="entry.1180158001" id="entry.1180158001.18 - 24" value="18 - 24" required="" class="18-24-radio radio">
+                <button type="button" class="btn btn-outline-dark btn-lg custom-color" id="18-24-visual">18-24</button>
+            </label>
+            <label for="entry.1180158001.25- 40">
+                <input type="radio" name="entry.1180158001" id="entry.1180158001.25- 40" value="25- 40" required="" class="25-40-radio radio">
+                <button type="button" class="btn btn-outline-dark btn-lg custom-color" id="25-40-visual">25-40</button>
+            </label>
+            <label for="entry.1180158001.40+">
+                <input type="radio" name="entry.1180158001" id="entry.1180158001.40+" value="40+" required="" class="40-radio radio">
+                <button type="button" class="btn btn-outline-dark btn-lg custom-color" id="40-visual">40+</button>
+            </label>
+        </div>
+
+        <div class="tab">
+            <p>What is your current limiting factor?</span>
+            <textarea type="text" name="entry.552080274" value="" placeholder="Your answer.." required="" class="text-answer" rows="3"></textarea>
+
+        </div>
+        <div class="tab">
+            <p>Why do you want to start now?</p>
+            <textarea type="text" name="entry.1478081531" placeholder="Your answer..." required="" class="text-answer" rows="3"></textarea>
+
+        </div>
+        <div class="tab">
+            <p>My programs are designed to teach you, not boss you around. It's an investment in yourself not an expense. With that being said are you willing to invest at least $150 upon signing up to build a happier and healthier life?</p>
+            <label for="entry.690814486.Yes">
+                <input type="radio" name="entry.690814486" id="entry.690814486.Yes" value="Yes" required="" class="yes-radio radio">
+                <button type="button" class="btn btn-outline-dark custom-color-green" id="yes-visual">Yes</button>
+            </label>
+            <label for="entry.690814486.No">
+                <input type="radio" name="entry.690814486" id="entry.690814486.No" value="No" required="" class="no-radio radio">
+                <button type="button" class="btn btn-outline-dark custom-color" id="no-visual">No</button>
+            </label>
+        </div>   
+        <div class="tab left-align">
+            <p>First Name?</p>
+            <input type="text" name="entry.1337317605" class="form-control" placeholder="">
+
+            <p>Last Name?</p>
+            <input type="text" name="entry.766061801" class="form-control" placeholder="">
+
+            <p>Email?</p>
+            <input type="text" name="entry.322897862" class="form-control" placeholder="">
+            
+            <p>Phone Number?</p>
+            <input type="text" name="entry.489471249" class="form-control" placeholder="">
+            <input type="submit" class="submit-btn radio">
+        </div>
+        </form>
+
+        <div class="progress-bar-row justify-content-center">
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+          </div>
+        <div class="nav-row">
+            <p class="hidden">This answer is required.</p>
+            <button type="button" id="prevBtn" class="btn btn-outline-dark" onclick="nextPrev(-1)" disabled="">Previous</button>
+            <button type="button" id="nextBtn" class="btn btn-outline-dark" onclick="nextPrev(1)" >Next</button>
+        </div>
+
+        <div class="form-submitted hidden">
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+            <div class="calendly-inline-widget" style="min-width:320px;height:580px;" data-auto-load="false">
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+                <script>
+                Calendly.initInlineWidget({
+                url: 'https://calendly.com/catherinenmgmt/chat-w-cat-coaching?hide_event_type_details=1'
+                });
+                </script>
+            </div>
+            <h3 class="hidden thank-you">Thank you for reaching out! I can't wait to chat!</h3>
+            <a href="index.html" class="hidden thank-you"><button type="button" class="btn btn-outline-dark hidden thank-you" href="index.html">
+                Back to Home Page
+            </button></a>  
+        </div>
+
+
+        <script src="scripts/intakeform.js"></script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+/*#222222;*/
+/*#f0f0ea;*/
+h3,
+p {
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  font-family: "Enriqueta", serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ebf5fe;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.tagline {
+  width: 100%;
+  margin: 2.4vh 1.35vw;
+  text-align: center;
+  padding: 5vh 0 0 0;
+  line-height: 0rem;
+  min-height: 12.5vh;
+}
+.tagline p {
+  color: black;
+  font-size: 5vw;
+  margin: 0;
+}
+.tagline h1 {
+  font-size: 13vw;
+  color: #822722;
+}
+
+#intakeForm {
+  min-height: 60vh;
+}
+#intakeForm .tab {
+  font-size: 7vw;
+  text-align: center;
+  display: block;
+}
+#intakeForm .tab p {
+  padding: 0 5vw;
+}
+#intakeForm .hidden-button {
+  opacity: 0;
+}
+
+.progress-bar-row {
+  text-align: center;
+  margin-top: 2vh;
+  padding: 0 1%;
+  justify-content: center;
+}
+.progress-bar-row .step {
+  margin: 0 auto;
+  padding: 0;
+  height: 0.2vh;
+  width: 12.5vw;
+  margin: 0;
+  background-color: rgb(192, 190, 190);
+  border: none;
+  display: inline-block;
+  opacity: 0.5;
+}
+.progress-bar-row .step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #c6ddd4;
+}
+
+.nav-row {
+  width: 100%;
+  text-align: center;
+}
+.nav-row button {
+  width: 45%;
+  padding: 2.5% 0;
+  margin: 2.225%;
+}
+
+.radio {
+  display: none;
+}
+
+.btn-lg {
+  min-width: 90vw;
+  display: block;
+  margin: 2vh 0;
+}
+
+#prevBtn:focus, #nextBtn:focus,
+#prevBtn:active, #nextBtn:active,
+#prevBtn:hover, #nextBtn:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.custom-color:active,
+.custom-color:hover,
+.custom-color:focus {
+  background-color: #822722 !important;
+}
+
+.custom-color-green:active,
+.custom-color-green:hover,
+.custom-color-green:focus {
+  background-color: rgb(187, 253, 192) !important;
+  color: black;
+}
+
+.text-answer {
+  width: 90%;
+  font-size: 5vw;
+}
+
+#yes-visual, #no-visual {
+  display: inline-block;
+  width: 40vw;
+  margin: 5%;
+}
+
+.left-align {
+  text-align: left !important;
+}
+.left-align p {
+  padding: 0 5vw;
+  margin-bottom: 0;
+}
+.left-align input {
+  margin: 0vh 5vw 4vh 5vw;
+  font-size: 5vw;
+  outline: none;
+  max-width: 80vw;
+}
+
+.submit-btn {
+  display: none;
+}
+
+.form-submitted {
+  text-align: center;
+}
+.form-submitted h3 {
+  font-size: 13vw;
+  margin: 10vh 0 0 0;
+}
+.form-submitted button {
+  width: 70%;
+  margin: 2vh 0;
+  padding: 1.5vh 0;
+}
+.form-submitted a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-row p {
+  color: #822722;
+}
+
+#prevBtn:disabled {
+  opacity: 0;
+}
+
+/*# sourceMappingURL=intakeform.css.map */
